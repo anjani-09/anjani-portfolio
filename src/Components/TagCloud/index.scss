@@ -1,0 +1,18 @@
+// Styles for the tag cloud container
+.TagCloud {
+    display: flex;
+    flex-direction: column; /* Ensure tags are stacked vertically */
+    align-items: flex-end; /* Align tags to the right side */
+    margin-right: 40px; /* Add some margin for spacing */
+  
+    // Additional container styles if needed
+  }
+  
+  // Styles for individual tags
+  .TagCloud-tag {
+    // Customize tag appearance, such as font size, colors, etc.
+    // Example styles:
+    margin-bottom: 5px; 
+    /* Add spacing between tags */
+  }
+  

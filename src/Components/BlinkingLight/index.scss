@@ -1,0 +1,55 @@
+.light-bulb {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .bulb {
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: #ccc;
+    transition: background-color 0.3s ease;
+  }
+  
+  .red-blink {
+    animation: blink-red 0.7s infinite;
+  }
+  
+  .text {
+    width: 40px;
+    height: 60px;
+    font-size: medium;
+    margin-left: 10px; /* Adjust the margin between bulb and text */
+    color: #fff;
+    font-family: sans-serif;
+    font-size: medium;
+    white-space: nowrap;
+  }
+  
+  
+  @keyframes blink-red {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color: #ff000087;
+    }
+    100% {
+      background-color: red;
+    }
+  }
+  
+  /* New class for different placement */
+  .top-right {
+    position: absolute;
+    top: 0px;
+    right: 550px;
+  }
+  

@@ -1,0 +1,101 @@
+.skills-page {
+    .skills-cloud {
+        position: absolute;
+        top: 40%;
+        right: 15%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%; 
+        opacity: 0; /* Initially hidden */
+        animation: fadeInAnimation 2s ease-in-out forwards; /* Animation for fade-in */
+        animation-delay: 3s;
+    }
+    @keyframes fadeInAnimation {
+        from {
+          opacity: 0; /* Start from opacity 0 */
+        }
+        to {
+          opacity: 1; /* End at opacity 1 */
+        }
+      }
+    .text-zone {
+      position: absolute;
+      left: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 40%;
+      max-height: 90%;
+    }
+  
+    h1 {
+      color: #fff;
+      font-size: 56px;
+      line-height: 53px;
+      margin: 0;
+      font-family: 'Coolvetica';
+      font-weight: 400;
+  
+      &:before {
+        content: '<h1>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: -40px;
+        left: -15px;
+        opacity: 0.6;
+      }
+  
+      &:after {
+        content: '<h1/>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: 18px;
+        margin-left: 20px;
+        animation: fadeIn 1s 1.7s backwards;
+        opacity: 0.6;
+      }
+  
+      img {
+        margin-left: 20px;
+        opacity: 0;
+        width: 32px;
+        height: auto;
+        animation: rotateIn 1s linear both;
+        animation-delay: 1.4s;
+      }
+    }
+  
+    h2 {
+      color: #fff !important;
+      margin-top: 20px;
+      font-weight: 400;
+      font-size: 20px;
+      font-family: Helvetica;
+      letter-spacing: 3px;
+      animation: fadeIn 1s 1.8s backwards;
+    }
+    .flat-button {
+        color: #ffd700;
+        font-size: 11px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        padding: 8px 10px;
+        border: 1px solid #ffd700;
+        float: left;
+        border-radius: 4px;
+        background: 0 0;
+        text-transform: uppercase;
+        float: left;
+        text-align: center;
+        margin-right: 10px;
+        &:hover {
+          background-color: #ffd700;
+          color: #000;
+          cursor: pointer;
+        }
+      }
+
+}
