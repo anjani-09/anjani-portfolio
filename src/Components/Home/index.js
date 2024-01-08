@@ -41,7 +41,7 @@ const Home = () => {
   return (
     <>
       <div className="container home-page">
-      <BlinkingLight text="Actively Seeking New Grad Dev Position"></BlinkingLight>
+      <BlinkingLight text="Actively Seeking Software Dev Position"></BlinkingLight>
         <div className= "text-zone" >
           <h1>
             <span className={letterClass}>H</span>
