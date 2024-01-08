@@ -36,7 +36,7 @@ const Contact = () => {
     <>
       <div className="container contact-page">
         
-      <BlinkingLight text="Actively Seeking New Grad Dev Position"></BlinkingLight>
+      <BlinkingLight text="Actively Seeking Software Dev Position"></BlinkingLight>
         <div className="text-zone">
           <h1>
             <AnimatedLetters

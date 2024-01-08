@@ -27,7 +27,7 @@ const About = () => {
   return (
     <>
       <div className="container about-page">
-      <BlinkingLight text="Actively Seeking New Grad Dev Position"></BlinkingLight>
+      <BlinkingLight text="Actively Seeking Software Dev Position"></BlinkingLight>
 
         <div className="text-zone">
           <h1>
