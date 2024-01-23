@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/anjani-portfolio/static/css/main.0c52dfe3.css",
-    "main.js": "/anjani-portfolio/static/js/main.08ea0423.js",
+    "main.css": "/anjani-portfolio/static/css/main.0c5e60dc.css",
+    "main.js": "/anjani-portfolio/static/js/main.a8aa7865.js",
     "static/js/787.cf482a7c.chunk.js": "/anjani-portfolio/static/js/787.cf482a7c.chunk.js",
     "static/media/helvetica-neu.ttf": "/anjani-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/avatar.svg": "/anjani-portfolio/static/media/avatar.fd9d98d3ba9b15d46dcd08f4e538aa6e.svg",
@@ -11,12 +11,12 @@
     "static/media/CoolveticaRg-Regular.woff": "/anjani-portfolio/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
     "static/media/CoolveticaRg-Regular.woff2": "/anjani-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/anjani-portfolio/index.html",
-    "main.0c52dfe3.css.map": "/anjani-portfolio/static/css/main.0c52dfe3.css.map",
-    "main.08ea0423.js.map": "/anjani-portfolio/static/js/main.08ea0423.js.map",
+    "main.0c5e60dc.css.map": "/anjani-portfolio/static/css/main.0c5e60dc.css.map",
+    "main.a8aa7865.js.map": "/anjani-portfolio/static/js/main.a8aa7865.js.map",
     "787.cf482a7c.chunk.js.map": "/anjani-portfolio/static/js/787.cf482a7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c52dfe3.css",
-    "static/js/main.08ea0423.js"
+    "static/css/main.0c5e60dc.css",
+    "static/js/main.a8aa7865.js"
   ]
 }
